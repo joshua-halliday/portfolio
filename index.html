@@ -19,10 +19,11 @@
             </div>
             <nav class="flexNav">
                 <div id="navButtons">
-                    <div class="navLinks projects"><h4 class="hoverNavButton">Projects</h4></div>
-                    <div class="navLinks"><h4 class="hoverNavButton">About me</h4></div>
-                    <div class="navLinks"><h4 class="hoverNavButton">Resume</h4></div>
-                    <div class="navLinks contact"><h4 class="hoverNavButton">Contact</h4></div> 
+                    <div class="navLinks projects"><a href="#scrollToProjects"><h4 class="hoverNavButton">Projects</h4></a></div>
+                    <div class="navLinks"><a href="#scrollToAbout"><h4 id="hideMe" class="hoverNavButton">About me</h4></a></div>
+                    <div class="navLinks"><a href="https://docs.google.com/document/d/1gW03Z8LrVKfyL7cAftrZZo8CWESZJF7L7gUEtHIetUo/edit?usp=sharing" target="_blank"><h4 class="hoverNavButton">Resume</h4></a></div>
+                    <div class="navLinks contact">            <a href="mailto:contact@joshuahalliday.com">
+                        <h4 class="hoverNavButton">Contact</h4></a></div> 
                     </div>
             </nav>
         </header>
@@ -65,7 +66,7 @@
 </div>
 </header>
 <!--Hero section-->
-        <section class="heroImg">
+        <section id="scrollToAbout" class="heroImg">
             <div class="content">
                     <div id="contentH1">
                         <h1>Hi, I'm Joshua Halliday,<br>UX & UI designer.</h1>
@@ -116,42 +117,62 @@
 <section id="coverage">
 
 <!--Projects section-->
-        <section class="projectsSection">
+        <section id="scrollToProjects" class="projectsSection">
             <img id="filmBg" src="./images/background film.png" alt="background film">
             <h2 class="wh projectsTitle">Projects</h2>
             <div class="cardHolder">
                 <!--Card 1-->
                 <div class="card">
-                    <div class="cardImg"><img src="./images/defenceLogo.png" alt="defence logo"></div>
+                    <a href="https://docs.google.com/presentation/d/1trTBW3zHUZouOIhu4-arOpmfhsFvR3d8gWM9MFZBxWo/edit?usp=sharing" target="_blank">
+                    <div class="cardImg"><img src="./images/goodreadsLogo.png" alt="defence logo"></div>
                     <div class="cardText">
-                        <h4 class="wh">Department of Defence RWD & UI website redesign</h4>
+                        <h4 class="wh">The magic of reading: a goodreads UX/UI/FE redesign</h4>
                         <p class="wh">
-                            Redesign of this Australian Government website, that needed to serve both the Australian public, as well as members of the ADF/APS. focusing on AAA accessibility, responsive web design (RWD), clear information architecture (IA) and purpose through intentional UI style.                        </p>
-                    </div>
-                </div>
+                            Goodreads was a website with potential for booklovers, but users found it overwhelming and uninspiring. To capture the magic of reading, intentional UI style was applied to add delightful interactions, the interface was decluttered and social features were surfaced and improved upon.                    </div>
+                        </a>
+                        </div>
                 <!--Card 2-->
                 <div class="card middleCard">
-                    <div class="cardImg"><img src="./images/lessCovidStressLogo.png" alt="defence logo"></div>
-                    <div class="cardText">
-                        <h4 class="wh">lessCOVIDstress: mobile app research and design</h4>
-                        <p class="wh">
-                            Aimed at post-pandemic travellers, lessCOVIDstress is a mobile app that provides digestible, up-to-date information about covid at their destination/s. Designed to reduce time and stress of searching across the internet for accurate covidsafe info across many destinations & languages.
-                        </p>
-                    </div>
-                </div>
-                <!--Card 3-->
-                <div class="card">
+                    <a href="https://docs.google.com/presentation/d/1OqgE2ifHk_VHm3iifYC62AUS1VfRHsJmG0PBZPGnOy0/edit?usp=sharing" target="_blank">
                     <div class="cardImg"><img src="./images/artsLawLogo.png" alt="defence logo"></div>
                     <div class="cardText">
                         <h4 class="wh">ArtsLaw nonprofit website redesign</h4>
                         <p class="wh">
                             ArtsLaw is an independent, non-profit that exists to provide legal resources and advice for artists in Australia. Their website was quite content heavy, so we sought to create a design that was more accessible, responsive, and felt more like a website for artists through thoughtful UI style.
                         </p>
+                    </a>
                     </div>
                 </div>
-
+                <!--Card 3-->
+                <div class="card card3">
+                    <a href="https://docs.google.com/presentation/d/1p0XNMk0ZfRDkhNhUDiatcXE9dnuJOD0oVF09m10wQbM/edit?usp=sharing" target="_blank">
+                    <div class="cardImg"><img src="./images/defenceLogo.png" alt="defence logo"></div>
+                    <div class="cardText">
+                        <h4 class="wh">Department of Defence RWD & UI website redesign</h4>
+                        <p class="wh">
+                            Redesign of this Australian Government website, that needed to serve both the Australian public, as well as members of the ADF/APS. Focusing on AAA accessibility, responsive web design (RWD), clear information architecture (IA) and purpose through intentional UI style.                        </p>
+                        </p>
+                    </a>
+                    </div>
+                </div>
+            
             </div>
-            <button id="mPbutton">More Projects</button>
+            <div class="cardHolder">
+                    <!--Card 4-->
+                    <div class="card card4">
+                        <a href="https://docs.google.com/presentation/d/1X8aA-RsigWv3RJ0fr6dHqev9vfLDMqnt88lFXf7W73c/edit?usp=sharing" target="_blank">
+                      <div class="cardImg"><img src="./images/lessCovidStressLogo.png" alt="defence logo"></div>
+                      <div class="cardText">
+                         <h4 class="wh">lessCOVIDstress: mobile app research and design</h4>
+
+                             <p class="wh">
+                                Aimed at post-pandemic travellers, lessCOVIDstress is a mobile app that provides digestible, up-to-date information about covid at their destination/s. Designed to reduce time and stress of searching across the internet for accurate covidsafe info across many destinations & languages.
+                            </p>
+                        </a>
+                        </div>
+</div>
+            </div>
+            <button id="mPbutton">More Projects [coming soon]</button>
         </section>
 <!--Footer section desktop-->
         <footer id="desktopFooter">
@@ -165,12 +186,16 @@
                     <div id="touch">
                     <h5>Get in touch:</h5></div>
                     <div class="contactLink">
+                        <a href="https://www.linkedin.com/in/joshua-halliday">    
                         <img id="iconL"src="./images/linkedInIcon.svg" alt="Linked In icon">
                         <h6 class="clText liLink">linkedin.com/in/Joshua-Halliday</h6>
+                        </a>
                     </div>
                     <div class="contactLink">
+                        <a href="mailto:contact@joshuahalliday.com">
                         <img id="mailL" src="./images/env.png" alt="Email icon">
                         <h6 class="clText liEmail">contact@joshuahalliday.com</h6>
+                        </a>
                     </div>
 
                 </div>
@@ -188,12 +213,16 @@
         <div id="touch">
         <h5>Get in touch:</h5></div>
         <div class="contactLink">
+            <a href="https://www.linkedin.com/in/joshua-halliday">    
             <img id="iconL"src="./images/linkedInIcon.svg" alt="Linked In icon">
             <p class="clText liLink">linkedin.com/in/Joshua-Halliday</p>
+            </a>
         </div>
         <div class="contactLink">
+            <a href="mailto:contact@joshuahalliday.com">
             <img id="mailL" src="./images/emailIcon.svg" alt="Email icon">
             <p class="clText liEmail">contact@joshuahalliday.com</P>
+                </a>
         </div>
 
     </div>
