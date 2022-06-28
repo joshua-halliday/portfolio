@@ -6,7 +6,9 @@ body {
     margin: 0px;
 }
 /* Typography */
-
+a {
+text-decoration: none;
+}
 h1 {
     /* H1 Desktop */
     font-family: 'Merriweather', serif;
