@@ -887,5 +887,5 @@ transition: all .3s ease-in-out;
 
   }
   a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
