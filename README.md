@@ -1,2 +1,4 @@
-# 18HW
-Week 18 HW, iteration upon week 17
+# Portfolio
+Portfolio for Joshua Halliday, UX/UI designer.
+
+Coded from scratch by Joshua Halliday.
