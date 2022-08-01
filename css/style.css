@@ -539,11 +539,15 @@ padding-right: 54px;
 transition: all .3s ease-in-out;
 }
 .mobileMenu li{
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
     list-style-type: none;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+.mobileMenu a {
+    text-decoration: none;
+    color: white
 }
 #mobileCloseIcon {
     opacity: 0;
